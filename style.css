@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #FFF;
+
+  --ff-primary: 'Dosis', sans-serif;
+  --ff-secondary: 'Open Sans', sans-serif;
+
+  --clr-primary: #EE24FF;
+  --clr-font-primary: #3F3D56;
+  --clr-font-secondary: #828282;
+  --clr-line: #ECEFF2;
+}
+
+body {
+  background-color: var(--bg-color);
+  text-align: center;
+}
+
+/* ========================== Hero ========================== */
+
+.hero {
+  width: 626px;
+  height: 486px;
+  margin: 64px auto;
+}
+
+.hero h1 {
+  margin: 32px 0 16px;
+  font-family: var(--ff-primary);
+  font-size: 32px;
+  font-weight: 500;
+  color: var(--clr-font-primary);
+}
+
+.hero span {
+  color: var(--clr-primary);
+  font-weight: 700;
+}
+
+.hero p {
+  width: 540px;
+  margin: 0 auto;
+  font-size: 15px;
+  font-family: var(--ff-secondary);
+  color: var(--clr-font-secondary);
+  line-height: 22px;
+}
+
+.hero strong {
+  color: var(--clr-font-primary);
+}
+
+/* ========================== Footer ========================== */
+
+.line {
+  width: 391px;
+  height: 0;
+  margin: 0 auto 16px;
+  border: 1px solid var(--clr-line);
+}
+
+.footer {
+  width: 100%;
+}
+
+.footer__content a {
+  color: var(--clr-font-primary);
+  font-family: var(--ff-secondary);
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.footer__content a + a {
+  margin-left: 42px;
+}
+
+.footer__content {
+  margin-bottom: 40px;
+}
+
+.footer__image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 100%;
+}
